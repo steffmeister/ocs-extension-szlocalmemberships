@@ -1,0 +1,11 @@
+{
+  "displayName" : "Local Memberships",
+  "author" : ["Stefan ZIDAR"],
+  "contributor" : [],
+  "supportedAgent" : ["Windows"],
+  "version" : "1.0",
+  "licence" : "GPLv2",
+  "description" : {
+    "en" : "Gather local groups and memberships of windows computers to OCS inventory"
+  }
+}
