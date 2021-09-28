@@ -20,12 +20,12 @@ $DATA_MAP{szlocalmemberships} = {
 	multi => 1,
 	auto => 1,
 	delOnReplace => 1,
-	sortBy => 'GROUP',
+	sortBy => 'SZGROUP',
 	writeDiff => 0,
 	cache => 0,
 	fields => {
-		GROUP => {},
-		USER => {},
+		SZGROUP => {},
+		SZUSER => {},
 	}
 };
 1;
