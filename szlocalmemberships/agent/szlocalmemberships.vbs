@@ -29,6 +29,6 @@ colGroups.Filter = Array("group")
 For Each objGroup In colGroups
      
     For Each objUser in objGroup.Members
-		wscript.Echo "<SZLOCALMEMBERSHIPS><GROUP>" & objGroup.Name & "</GROUP><USER>" & objUser.Name & "</USER></SZLOCALMEMBERSHIPS>"
+		wscript.Echo "<SZLOCALMEMBERSHIPS><SZGROUP>" & objGroup.Name & "</SZGROUP><SZUSER>" & objUser.Name & "</SZUSER></SZLOCALMEMBERSHIPS>"
     Next
 Next

@@ -10,8 +10,8 @@ function extension_install_szlocalmemberships()
     $commonObject -> sqlQuery("CREATE TABLE IF NOT EXISTS `szlocalmemberships` (
                               `ID` INT(11) NOT NULL AUTO_INCREMENT,
                               `HARDWARE_ID` INT(11) NOT NULL,
-                              `GROUP` VARCHAR(255) DEFAULT NULL,
-                              `USER` VARCHAR(255) DEFAULT NULL,
+                              `SZGROUP` VARCHAR(255) DEFAULT NULL,
+                              `SZUSER` VARCHAR(255) DEFAULT NULL,
                               PRIMARY KEY  (`ID`,`HARDWARE_ID`)
                             ) ENGINE=INNODB ;");
 }
